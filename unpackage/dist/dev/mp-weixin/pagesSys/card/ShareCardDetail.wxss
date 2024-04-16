@@ -1,0 +1,122 @@
+
+.uni-rate.data-v-b7a28ab8 {
+
+	display: flex;
+
+	line-height: 0;
+	font-size: 0;
+	flex-direction: row;
+}
+.uni-rate__icon.data-v-b7a28ab8 {
+	position: relative;
+	line-height: 0;
+	font-size: 0;
+}
+.uni-rate__icon-on.data-v-b7a28ab8 {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 1;
+	text-align: left;
+}
+
+@charset "UTF-8";
+.page.data-v-2ef45369 {
+  z-index: 0;
+  height: 100vh;
+}
+/* 起到固定的作用 ,从而解决原页面触摸穿透的问题*/
+.prevent.data-v-2ef45369 {
+  width: 100%;
+  height: 100%;
+  /*自动回到顶部*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+/* 遮罩样式 */
+.shade.data-v-2ef45369 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 98;
+}
+/* 底部分享 */
+.popup-base.data-v-2ef45369 {
+  display: flex;
+  flex-direction: column;
+  height: 950rpx;
+  padding-bottom: 62px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  z-index: 99;
+}
+.popup-base scroll-view.data-v-2ef45369 {
+  height: 850rpx;
+}
+.popup-close.data-v-2ef45369 {
+  position: absolute;
+  top: 30rpx;
+  left: 30rpx;
+  font-size: 39rpx;
+  text-align: center;
+  font-weight: bold;
+  z-index: 99;
+}
+.popup-title.data-v-2ef45369 {
+  margin-top: 15rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  padding: 5rpx 0;
+  text-align: center;
+  font-weight: bold;
+}
+.popup-content.data-v-2ef45369 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20rpx;
+  max-height: 850rpx;
+}
+.popup-content-box.data-v-2ef45369 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.popup-qrcode-image.data-v-2ef45369 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 390rpx;
+  height: 500rpx;
+  overflow: hidden;
+  border-radius: 50rpx;
+}
+.popup-meeting-image.data-v-2ef45369 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 500rpx;
+  height: 390rpx;
+  overflow: hidden;
+  border-radius: 50rpx;
+}
+.popup-content-text.data-v-2ef45369 {
+  font-size: 26rpx;
+  color: #333;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+

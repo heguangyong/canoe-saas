@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ups-activity": "/components/ups-activity/index",
+    "ups-product": "/components/ups-product/index"
+  }
+}

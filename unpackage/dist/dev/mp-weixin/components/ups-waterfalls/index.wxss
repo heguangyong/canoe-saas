@@ -1,0 +1,22 @@
+.waterfalls-box.data-v-b5b393d8 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.waterfalls-box .waterfalls-list.data-v-b5b393d8 {
+  width: calc((100% - var(--offset) * (var(--cols) - 1)) / var(--cols));
+  position: absolute;
+  background-color: #fff;
+  border-radius: 6px;
+  left: calc(-50% - var(--offset));
+}
+.waterfalls-box .waterfalls-list .waterfalls-list-image.data-v-b5b393d8 {
+  width: 100%;
+  will-change: transform;
+  border-radius: 6px 6px 0 0;
+  display: block;
+}
+.waterfalls-box .waterfalls-list .waterfalls-list-image.single.data-v-b5b393d8 {
+  border-radius: 6px;
+}
+

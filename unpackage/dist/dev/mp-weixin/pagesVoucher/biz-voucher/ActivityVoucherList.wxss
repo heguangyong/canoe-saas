@@ -1,0 +1,69 @@
+
+.card-radius {
+    border-radius: 10rpx;
+}
+.card-popup {
+
+    display: flex;
+    flex-direction: column;
+
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+.card-popup-content {
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    max-height: 850rpx;
+}
+.card-popup-btn {
+    height: 90rpx;
+    line-height: 90rpx;
+    font-size: 14px;
+    border-top-color: #DADADA;
+    border-top-width: 1px;
+    border-top-style: solid;
+    text-align: center;
+    color: #666;
+}
+.remove-popup-btn {
+    height: 90rpx;
+    line-height: 90rpx;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+}
+.quan{
+    padding: 0 20rpx;
+    z-index: 0;
+}
+.font50{
+    font-size: 50rpx;
+}
+.card{
+    margin-top: 20rpx;
+    width: 100%;
+    border-radius: 20rpx;
+    padding: 5rpx 30rpx;
+    height: 170rpx;
+}
+.font32{
+    font-size: 32rpx;
+}
+.line35{
+    line-height: 50rpx;
+}
+.font-bold{
+    font-weight: bolder;
+}
+.quan-text{
+    width: 640rpx;
+}
+.quan-right{
+    width: 200rpx;
+}
+

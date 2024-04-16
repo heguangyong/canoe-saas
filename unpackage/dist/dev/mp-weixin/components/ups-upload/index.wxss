@@ -1,0 +1,8 @@
+
+.solids{
+	border: 1rpx dashed #aaaaaa;
+}
+.iconfont{
+	font-size: 100rpx;
+}
+

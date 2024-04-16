@@ -1,0 +1,445 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/my/home",
+            "style" : {}
+        },
+        {
+            "path" : "pages/site/trend",
+            "style" : {}
+        },
+        {
+            "path" : "pages/site/product",
+            "style" : {}
+        },
+        {
+            "path" : "pages/site/activity",
+            "style" : {}
+        },
+		{
+		    "path" : "thirdParty/WebLogin",
+		    "style" : {}
+		},
+        {
+            "path" : "thirdParty/huaji/login",
+            "style" : {}
+        }
+    ],
+    "subPackages" : [
+        {
+            "root" : "pagesSys",
+            "pages" : [
+                {
+                    "path" : "card/CardDetail",
+                    "style" : {}
+                },
+                {
+                    "path" : "card/CardQrcode",
+                    "style" : {}
+                },
+                {
+                    "path" : "card/CardInput",
+                    "style" : {}
+                },
+                {
+                    "path" : "card/ShareCardDetail",
+                    "style" : {}
+                },
+                {
+                    "path" : "card/CardDetailExt",
+                    "style" : {}
+                },
+                {
+                    "path" : "card/BizAbout",
+                    "style" : {}
+                },
+                {
+                    "path" : "card/BizAboutExt",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/MsgList",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/WishOrderList",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/NeedConfirmOrder",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/NeedPayOrder",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/AddressList",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/CanceledOrder",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/WaitSendOrder",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/TotalOrderList",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/ApplyReturnPay",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/WaitReturnPay",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/ShippedOrder",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/FinishReturnPay",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/FinishedOrder",
+                    "style" : {}
+                },
+                {
+                    "path" : "my/ActivityOrderList",
+                    "style" : {}
+                },
+                {
+                    "path" : "site/activity",
+                    "style" : {
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "site/product",
+                    "style" : {
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "site/ShareProductList",
+                    "style" : {
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "site/trend",
+                    "style" : {
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "site/company",
+                    "style" : {
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "site/service",
+                    "style" : {}
+                },
+                {
+                    "path" : "site/WebService",
+                    "style" : {}
+                },
+                {
+                    "path" : "site/payment",
+                    "style" : {}
+                },
+                {
+                    "path" : "site/visitor",
+                    "style" : {}
+                },
+                {
+                    "path" : "site/about",
+                    "style" : {}
+                }
+            ]
+        },
+        {
+            "root" : "pagesMgt",
+            "pages" : [
+                {
+                    "path" : "BizCardInput",
+                    "style" : {}
+                },
+                {
+                    "path" : "BizAboutInput",
+                    "style" : {}
+                },
+                {
+                    "path" : "BizServiceInput",
+                    "style" : {}
+                },
+                {
+                    "path" : "BizServiceList",
+                    "style" : {}
+                },
+                {
+                    "path" : "BizServiceDetail",
+                    "style" : {}
+                },
+                {
+                    "path" : "BizMsgList",
+                    "style" : {}
+                },
+                {
+                    "path" : "BizProductList",
+                    "style" : {
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "BizOrderList",
+                    "style" : {
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "BizProductInput",
+                    "style" : {}
+                },
+                {
+                    "path" : "BizActivityList",
+                    "style" : {
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "BizActivityInput",
+                    "style" : {}
+                },
+                {
+                    "path" : "BizTrendList",
+                    "style" : {
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "BizTrendInput",
+                    "style" : {}
+                },
+                {
+                    "path" : "PersonCardList",
+                    "style" : {}
+                },
+                {
+                    "path" : "BizCardList",
+                    "style" : {}
+                },
+                {
+                    "path" : "NeedSendOrder",
+                    "style" : {}
+                },
+                {
+                    "path" : "ModifyOrderPrice",
+                    "style" : {}
+                },
+                {
+                    "path" : "WaitSendOrder",
+                    "style" : {}
+                },
+                {
+                    "path" : "CanceledOrder",
+                    "style" : {}
+                },
+                {
+                    "path" : "SendOrder",
+                    "style" : {}
+                },
+                {
+                    "path" : "AddressList",
+                    "style" : {}
+                },
+                {
+                    "path" : "ShippedOrder",
+                    "style" : {}
+                }
+            ]
+        },
+        {
+            "root" : "pagesCmn",
+            "pages" : [
+                {
+                    "path" : "activity/ActivityDetail",
+                    "style" : {}
+                },
+                {
+                    "path" : "activity/ActivityDetailExt",
+                    "style" : {}
+                },
+                {
+                    "path" : "activity/ShareActivityDetail",
+                    "style" : {}
+                },
+                {
+                    "path" : "activity/a001/index",
+                    "style" : {}
+                },
+                {
+                    "path" : "activity/a001/d1",
+                    "style" : {}
+                },
+                {
+                    "path" : "activity/a001/d2",
+                    "style" : {}
+                },
+                {
+                    "path" : "activity/a001/d3",
+                    "style" : {}
+                },
+                {
+                    "path" : "activity/a001/d4",
+                    "style" : {}
+                },
+                {
+                    "path" : "activity/a001/d5",
+                    "style" : {}
+                },
+                {
+                    "path" : "activity/ActivityQrcode",
+                    "style" : {}
+                },
+                {
+                    "path" : "product/ProductDetail",
+                    "style" : {}
+                },
+                {
+                    "path" : "product/ProductDetailExt",
+                    "style" : {}
+                },
+                {
+                    "path" : "product/ShareProductDetail",
+                    "style" : {}
+                },
+                {
+                    "path" : "product/ProductQrcode",
+                    "style" : {}
+                },
+                {
+                    "path" : "trend/ShareTrendDetail",
+                    "style" : {}
+                },
+                {
+                    "path" : "trend/TrendQrcode",
+                    "style" : {}
+                }
+            ]
+        }, {
+			"root": "pagesVoucher",
+			"pages": [
+				{
+					"path" : "biz-voucher/VoucherTypeList",
+					"style" : {}
+				},
+				{
+					"path": "biz-voucher/index",
+					"style":{}
+				},
+				{
+					"path": "vou-customers/CustomerVoucherList",
+					"style":{}
+				},
+				{
+					"path": "vou-customers/VoucherDetail",
+					"style":{}
+				},
+				{
+					"path": "vou-customers/ShareVoucherDetail",
+					"style":{}
+				},
+				{
+					"path": "vou-customers/index",
+					"style":{}
+				},
+				{
+					"path": "vou-members/index",
+					"style":{}
+				},
+				{
+					"path": "biz-voucher/ActivityVoucherList",
+					"style":{}
+				},
+				{
+					"path": "biz-voucher/ActivityInput",
+					"style":{}
+				},
+				{
+					"path": "biz-voucher/ActivityDetail",
+					"style":{}
+				},
+				{
+					"path": "biz-voucher/ShareActivityDetail",
+					"style":{}
+				},
+				{
+					"path": "vou-entries/index",
+					"style":{}
+				},
+				{
+					"path": "vou-entries/WriteOffList",
+					"style":{}
+				}
+			]
+		}
+    ],
+    "globalStyle" : {
+        "mp-alipay" : {
+            /* 支付宝小程序特有相关 */
+            "transparentTitle" : "always",
+            "allowsBounceVertical" : "NO"
+        },
+        "navigationBarBackgroundColor" : "#0081ff",
+        "navigationBarTitleText" : "",
+        "navigationStyle" : "custom",
+        "navigationBarTextStyle" : "white"
+    },
+    // "tabBar" : {
+    //     "color" : "#aaaaaa",
+    //     "selectedColor" : "#333333",
+    //     "borderStyle" : "black",
+    //     "backgroundColor" : "#ffffff",
+    //     "list" : [
+    //         {
+    //             "pagePath" : "pages/site/trend",
+    //             "iconPath" : "static/tabbar/trend.png",
+    //             "selectedIconPath" : "static/tabbar/trend_cur.png",
+    //             "text" : "动态"
+    //         },
+    //         {
+    //             "pagePath" : "pages/site/product",
+    //             "iconPath" : "static/tabbar/product.png",
+    //             "selectedIconPath" : "static/tabbar/product_cur.png",
+    //             "text" : "产品"
+    //         },
+    //         {
+    //             "pagePath" : "pages/site/activity",
+    //             "iconPath" : "static/tabbar/activity.png",
+    //             "selectedIconPath" : "static/tabbar/activity_cur.png",
+    //             "text" : "活动"
+    //         },
+    //         {
+    //             "pagePath" : "pages/my/home",
+    //             "iconPath" : "static/tabbar/my.png",
+    //             "selectedIconPath" : "static/tabbar/my_cur.png",
+    //             "text" : "我"
+    //         }
+    //     ]
+    // },
+    "usingComponts" : true,
+    "condition" : {
+        //模式配置，仅开发期间生效
+        "current" : 0, //当前激活的模式(list 的索引项)
+        "list" : []
+    }
+}

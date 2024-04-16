@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "ups-trend": "/components/ups-trend/index",
+    "ups-product": "/components/ups-product/index",
+    "ups-activity": "/components/ups-activity/index",
+    "ups-comment": "/components/ups-comment/index"
+  }
+}

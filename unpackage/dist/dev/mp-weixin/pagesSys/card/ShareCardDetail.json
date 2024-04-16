@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "ups-card": "/components/ups-card/index",
+    "ups-waterfalls": "/components/ups-waterfalls/index"
+  }
+}

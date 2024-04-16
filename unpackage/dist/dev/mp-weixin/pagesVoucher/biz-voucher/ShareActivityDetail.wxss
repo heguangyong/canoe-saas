@@ -1,0 +1,31 @@
+
+.quan{
+    padding: 0 20rpx;
+    z-index: 0;
+}
+.font50{
+    font-size: 50rpx;
+}
+.card{
+    margin-top: 20rpx;
+    width: 100%;
+    border-radius: 20rpx;
+    padding: 5rpx 30rpx;
+    height: 170rpx;
+}
+.font32{
+    font-size: 32rpx;
+}
+.line35{
+    line-height: 50rpx;
+}
+.font-bold{
+    font-weight: bolder;
+}
+.quan-text{
+    width: 640rpx;
+}
+.quan-right{
+    width: 200rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "ups-products": "/components/ups-products/index"
+  }
+}

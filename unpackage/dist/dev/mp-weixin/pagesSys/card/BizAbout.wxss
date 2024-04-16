@@ -1,0 +1,15 @@
+.page.data-v-4bb104e1 {
+  z-index: 0;
+  /*height: 100vh;*/
+}
+.screen-swiper.data-v-4bb104e1 {
+  min-height: 1340rpx;
+}
+.btn-share.data-v-4bb104e1 {
+  background-color: transparent;
+  border-style: none;
+}
+button.data-v-4bb104e1::after {
+  border: 0;
+}
+

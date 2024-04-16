@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ups-movable": "/components/ups-movable/index"
+  }
+}

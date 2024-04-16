@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "ups-uploads": "/components/ups-uploads/index",
+    "ups-upload": "/components/ups-upload/index"
+  }
+}

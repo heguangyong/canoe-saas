@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "ups-movable": "/components/ups-movable/index"
+  }
+}

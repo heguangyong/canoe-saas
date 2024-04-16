@@ -1,0 +1,35 @@
+
+.card{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.card-name{
+	font-size: 66rpx;
+	text-align: center;
+	margin-top: 200rpx;
+}
+.card-position{
+	font-size: 40rpx;
+	text-align: center;
+	margin-top: 20rpx;
+}
+.radiu{
+	border-radius: 50%;
+	width: 500rpx;
+	height: 500rpx;
+}
+.card-image{
+	border-radius: 30%;
+	width: 400rpx;
+	height: 400rpx;
+	display: inline-block;
+	margin: 50rpx;
+}
+.card-title{
+	text-align: center;
+	font-size: 36rpx;
+	margin-top: 800rpx;
+}
+
+

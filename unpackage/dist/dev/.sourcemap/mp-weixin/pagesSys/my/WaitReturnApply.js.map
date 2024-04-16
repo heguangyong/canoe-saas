@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;wEAAA,qBACA,sBACA,mI,mDACAA,EAAWC,a","file":"pagesSys/my/WaitReturnApply.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pagesSys/my/WaitReturnApply.vue'\ncreatePage(Page)"],"sourceRoot":""}

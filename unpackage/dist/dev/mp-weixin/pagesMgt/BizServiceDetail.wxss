@@ -1,0 +1,15 @@
+.page.data-v-08de86ce {
+  z-index: 0;
+  /*height: 100vh;*/
+}
+.screen-swiper.data-v-08de86ce {
+  min-height: 766rpx;
+}
+.btn-share.data-v-08de86ce {
+  background-color: transparent;
+  border-style: none;
+}
+button.data-v-08de86ce::after {
+  border: 0;
+}
+

@@ -1,0 +1,847 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 起到固定的作用 ,从而解决原页面触摸穿透的问题*/
+.prevent {
+	width: 100%;
+	height: 100%;
+	/*自动回到顶部*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+/* 遮罩样式 */
+.shade{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 90;
+}
+.ups-height{
+	height: 850rpx;
+	padding-bottom:62px;
+}
+.popup-base {
+	display: flex;
+	flex-direction: column;
+	border-top-left-radius: 3%;
+	border-top-right-radius: 3%;
+	z-index: 95;
+}
+.popup-close {
+	position:absolute;
+	top:30rpx;
+	left:30rpx;
+	font-size: 39rpx;
+	text-align: center;
+	font-weight: bold;
+	z-index: 99;
+}
+.popup-title {
+	margin-top:15rpx;
+	line-height: 60rpx;
+	font-size: 28rpx;
+	padding: 5rpx 0;
+	text-align: center;
+	font-weight: bold;
+}
+.popup-content {
+
+	display: flex;
+
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 5px;
+	max-height: 850rpx;
+}
+.popup-content-box {
+
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+	width: 180rpx;
+}
+.popup-content-image {
+
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 90rpx;
+	height: 130rpx;
+	overflow: hidden;
+	border-radius: 50rpx;
+}
+.content-image {
+	width: 80rpx;
+	height: 80rpx;
+}
+.popup-content-text {
+	font-size: 26rpx;
+	color: #333;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.popup-btn {
+	height: 90rpx;
+	line-height: 90rpx;
+	font-size: 14px;
+	border-top-color: #DADADA;
+	border-top-width: 1px;
+	border-top-style: solid;
+	text-align: center;
+	color: #666;
+}
+.button-content {
+	width: 100rpx;
+	height: 100rpx;
+	border-radius:15px;
+}
+.cu-btn{
+	padding: 0 10rpx;
+}
+.quan{
+	padding: 0 20rpx;
+	z-index: 0;
+}
+.font50{
+	font-size: 50rpx;
+}
+.card{
+	margin-top: 20rpx;
+	width: 100%;
+	border-radius: 20rpx;
+	padding: 5rpx 30rpx;
+	height: 170rpx;
+}
+.font32{
+	font-size: 32rpx;
+}
+.line35{
+	line-height: 50rpx;
+}
+.font-bold{
+	font-weight: bolder;
+}
+.quan-text{
+	width: 640rpx;
+}
+.quan-right{
+	width: 200rpx;
+}
+

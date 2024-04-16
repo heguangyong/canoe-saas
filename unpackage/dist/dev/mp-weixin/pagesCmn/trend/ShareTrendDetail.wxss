@@ -1,0 +1,183 @@
+
+page.data-v-6da1d432{
+    background-color:#000000;
+}
+.swiper.data-v-6da1d432{
+    flex: 1;
+    background-color: #000;
+    height: 92vh;
+}
+.swiper-item.data-v-6da1d432 {
+    flex: 1;
+}
+.video.data-v-6da1d432 {
+    flex: 1;
+}
+.video-box.data-v-6da1d432{
+    flex: 1;
+    width: 750rpx;
+}
+.cover-view-left.data-v-6da1d432{
+    position: absolute;
+    margin-left: 10rpx;
+    width: 500rpx;
+    bottom: 120rpx;
+    z-index: 1;
+    font-size: 16px;
+    /*color: #FFFFFF;*/
+
+    white-space: pre-wrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.left-view.data-v-6da1d432{
+    margin-bottom: 20rpx;
+}
+.left-text.data-v-6da1d432{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.avatar.data-v-6da1d432{
+    border-radius: 50rpx;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+}
+.cover-view-right.data-v-6da1d432{
+    position: absolute;
+    bottom: 160rpx;
+    right: 20rpx;
+
+    display: flex;
+    flex-direction: column;
+
+    z-index: 1;
+}
+.right-text.data-v-6da1d432{
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 15rpx;
+    height: 20px;
+}
+.img.data-v-6da1d432{
+    height: 64rpx;
+    width: 64rpx;
+    opacity: 0.9;
+}
+.page.data-v-6da1d432{
+
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+/* 底部分享 */
+.trend-popup.data-v-6da1d432 {
+    display: flex;
+    flex-direction: column;
+    height: 950rpx;
+    padding-bottom:62px;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width:100%;
+    z-index: 95;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+.trend-popup-close.data-v-6da1d432 {
+    position:absolute;
+    top:30rpx;
+    left:30rpx;
+    font-size: 39rpx;
+    text-align: center;
+    font-weight: bold;
+    z-index: 99;
+}
+.trend-popup-title.data-v-6da1d432 {
+    margin-top:15rpx;
+    line-height: 60rpx;
+    font-size: 28rpx;
+    padding: 5rpx 0;
+    text-align: center;
+    font-weight: bold;
+}
+.trend-popup-content.data-v-6da1d432 {
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    max-height: 850rpx;
+}
+.trend-popup-btn.data-v-6da1d432 {
+    height: 90rpx;
+    line-height: 90rpx;
+    font-size: 14px;
+    border-top-color: #DADADA;
+    border-top-width: 1px;
+    border-top-style: solid;
+    text-align: center;
+    color: #666;
+}
+.remove-popup-btn.data-v-6da1d432 {
+    height: 90rpx;
+    line-height: 90rpx;
+    font-size: 14px;
+    text-align: center;
+    color: #ed1c24;
+}
+.cu-btn.data-v-6da1d432{
+    padding: 0 10rpx;
+}
+.cu-reply.data-v-6da1d432 {
+    margin-left: 90rpx;
+}
+.card-popup-line.data-v-6da1d432 {
+    line-height: 90rpx;
+    border-top-color: #DADADA;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin:25rpx 20rpx 25rpx 70rpx;
+}
+.card-btn.data-v-6da1d432{
+    width: 60rpx;
+}
+/* 起到固定的作用 ,从而解决原页面触摸穿透的问题*/
+.prevent.data-v-6da1d432 {
+    width: 100%;
+    height: 100%;
+    /*自动回到顶部*/
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+/* 遮罩样式 */
+.shade.data-v-6da1d432{
+    width:100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 90;
+}
+.ups-height-padding.data-v-6da1d432{
+    height: 850rpx;
+    padding-bottom:62px;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    z-index: 99;
+}
+.ups-height.data-v-6da1d432{
+    height: 850rpx;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    z-index: 99;
+}
+

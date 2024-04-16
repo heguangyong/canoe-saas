@@ -1,0 +1,22 @@
+.feng-stepper {
+  display: flex;
+  align-items: center;
+  background-color: #EEEEEE;
+  border-radius: 25rpx;
+}
+.feng-stepper .step-cr {
+  display: inline-block;
+  font-size: 32rpx;
+  line-height: 44rpx;
+  border-radius: 50%;
+  height: 50rpx;
+  width: 50rpx;
+  background-color: lightgrey;
+  text-align: center;
+}
+.feng-stepper input {
+  width: 50rpx;
+  text-align: center;
+  height: 50rpx;
+}
+

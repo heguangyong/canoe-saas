@@ -1,0 +1,22 @@
+
+.screen-swiper image,.screen-swiper video,.swiper-item image,.swiper-item video {
+	pointer-events: auto;
+}
+.screen-swiper {
+	min-height: 750rpx;
+}
+.text-content{
+	font-size: 24rpx;
+	margin-top: 10rpx;
+	margin-left: 10rpx;
+}
+.product-screen-swiper{
+	height: 85rpx;
+	width: 95%;
+	padding: 0 10rpx 0 10rpx;
+}
+.icon-right{
+	float:right;
+	padding:15rpx 20rpx 15rpx 15rpx;
+}
+

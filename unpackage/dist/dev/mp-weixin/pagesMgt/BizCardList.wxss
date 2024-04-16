@@ -1,0 +1,66 @@
+
+page {
+    padding-top: 100rpx;
+}
+.card-radius {
+    border-radius: 10rpx;
+}
+
+/* 起到固定的作用 ,从而解决原页面触摸穿透的问题*/
+.prevent {
+    width: 100%;
+    height: 100%;
+    /*自动回到顶部*/
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+/* 遮罩样式 */
+.shade{
+    width:100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 90;
+}
+
+/* 底部分享 */
+.card-popup {
+
+    display: flex;
+    flex-direction: column;
+
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+.card-popup-content {
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    max-height: 850rpx;
+}
+.card-popup-btn {
+    height: 90rpx;
+    line-height: 90rpx;
+    font-size: 14px;
+    border-top-color: #DADADA;
+    border-top-width: 1px;
+    border-top-style: solid;
+    text-align: center;
+    color: #666;
+}
+.remove-popup-btn {
+    height: 90rpx;
+    line-height: 90rpx;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+}
+

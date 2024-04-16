@@ -1,0 +1,51 @@
+
+page {
+	padding-top: 45rpx;
+}
+.quan{
+	padding: 20rpx 50rpx;
+}
+.font50{
+	font-size: 50rpx;
+}
+.card{
+	margin-top: 30rpx;
+	width: 100%;
+	border-radius: 20rpx;
+	padding: 5rpx 30rpx;
+	height: 170rpx;
+}
+.font32{
+	font-size: 32rpx;
+}
+.line35{
+	line-height: 50rpx;
+}
+.font-bold{
+	font-weight: bolder;
+}
+.quan-text{
+	width: 640rpx;
+}
+.quan-right{
+	width: 200rpx;
+}
+.quan-icon{
+	width: 100rpx;
+	height: 100rpx;
+	background-color: #ffffff;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+.quan-icon-icon{
+	font-size: 60rpx;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+
+

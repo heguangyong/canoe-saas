@@ -1,0 +1,132 @@
+{
+  "pages": [
+    "pages/my/home",
+    "pages/site/trend",
+    "pages/site/product",
+    "pages/site/activity",
+    "thirdParty/WebLogin",
+    "thirdParty/huaji/login"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesSys",
+      "pages": [
+        "card/CardDetail",
+        "card/CardQrcode",
+        "card/CardInput",
+        "card/ShareCardDetail",
+        "card/CardDetailExt",
+        "card/BizAbout",
+        "card/BizAboutExt",
+        "my/MsgList",
+        "my/WishOrderList",
+        "my/NeedConfirmOrder",
+        "my/NeedPayOrder",
+        "my/AddressList",
+        "my/CanceledOrder",
+        "my/WaitSendOrder",
+        "my/TotalOrderList",
+        "my/ApplyReturnPay",
+        "my/WaitReturnPay",
+        "my/ShippedOrder",
+        "my/FinishReturnPay",
+        "my/FinishedOrder",
+        "my/ActivityOrderList",
+        "site/activity",
+        "site/product",
+        "site/ShareProductList",
+        "site/trend",
+        "site/company",
+        "site/service",
+        "site/WebService",
+        "site/payment",
+        "site/visitor",
+        "site/about"
+      ]
+    },
+    {
+      "root": "pagesMgt",
+      "pages": [
+        "BizCardInput",
+        "BizAboutInput",
+        "BizServiceInput",
+        "BizServiceList",
+        "BizServiceDetail",
+        "BizMsgList",
+        "BizProductList",
+        "BizOrderList",
+        "BizProductInput",
+        "BizActivityList",
+        "BizActivityInput",
+        "BizTrendList",
+        "BizTrendInput",
+        "PersonCardList",
+        "BizCardList",
+        "NeedSendOrder",
+        "ModifyOrderPrice",
+        "WaitSendOrder",
+        "CanceledOrder",
+        "SendOrder",
+        "AddressList",
+        "ShippedOrder"
+      ]
+    },
+    {
+      "root": "pagesCmn",
+      "pages": [
+        "activity/ActivityDetail",
+        "activity/ActivityDetailExt",
+        "activity/ShareActivityDetail",
+        "activity/a001/index",
+        "activity/a001/d1",
+        "activity/a001/d2",
+        "activity/a001/d3",
+        "activity/a001/d4",
+        "activity/a001/d5",
+        "activity/ActivityQrcode",
+        "product/ProductDetail",
+        "product/ProductDetailExt",
+        "product/ShareProductDetail",
+        "product/ProductQrcode",
+        "trend/ShareTrendDetail",
+        "trend/TrendQrcode"
+      ]
+    },
+    {
+      "root": "pagesVoucher",
+      "pages": [
+        "biz-voucher/VoucherTypeList",
+        "biz-voucher/index",
+        "vou-customers/CustomerVoucherList",
+        "vou-customers/VoucherDetail",
+        "vou-customers/ShareVoucherDetail",
+        "vou-customers/index",
+        "vou-members/index",
+        "biz-voucher/ActivityVoucherList",
+        "biz-voucher/ActivityInput",
+        "biz-voucher/ActivityDetail",
+        "biz-voucher/ShareActivityDetail",
+        "vou-entries/index",
+        "vou-entries/WriteOffList"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "plugins": {},
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于导航展示"
+    }
+  },
+  "usingComponents": {
+    "site": "/pages/site/home",
+    "my": "/pages/my/home",
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,16 @@
+
+image{
+	height:64rpx;
+}
+.cu-avatar{
+	margin: 15rpx 15rpx 0 0;
+}
+.column-flex{
+	flex-direction: column;
+	margin-top: 10rpx;
+}
+.text-position{
+	height: 34rpx;
+	margin-top:7rpx;
+}
+

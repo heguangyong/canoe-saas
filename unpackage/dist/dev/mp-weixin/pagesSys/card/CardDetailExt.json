@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "ups-card": "/components/ups-card/index",
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}

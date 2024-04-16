@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;wEAAA,qBACA,sBACA,2C,mDACAA,EAAWC,a","file":"pages/site/WebLogin.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/site/WebLogin.vue'\ncreatePage(Page)"],"sourceRoot":""}

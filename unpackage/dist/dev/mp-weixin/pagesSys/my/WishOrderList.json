@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ups-stepper": "/components/ups-stepper/index"
+  }
+}

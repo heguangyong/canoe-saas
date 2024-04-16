@@ -1,0 +1,98 @@
+@charset "UTF-8";
+.page {
+  z-index: 0;
+  height: 100vh;
+}
+video {
+  width: 750rpx;
+}
+image {
+  width: 750rpx;
+}
+.carousel {
+  height: 600rpx;
+  position: relative;
+}
+.carousel swiper {
+  height: 100%;
+}
+.carousel .image-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.carousel .swiper-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+}
+.carousel .swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+/* 底部分享 */
+.popup {
+  display: flex;
+  flex-direction: column;
+  height: 950rpx;
+  padding-bottom: 62px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 95;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+.popup-close {
+  position: absolute;
+  top: 30rpx;
+  left: 30rpx;
+  font-size: 39rpx;
+  text-align: center;
+  font-weight: bold;
+  z-index: 199;
+}
+.popup-title {
+  margin-top: 15rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  padding: 5rpx 0;
+  text-align: center;
+  font-weight: bold;
+}
+.popup-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+  max-height: 950rpx;
+}
+/* 起到固定的作用 ,从而解决原页面触摸穿透的问题*/
+.prevent {
+  width: 100%;
+  height: 100%;
+  /*自动回到顶部*/
+  /*position: fixed;*/
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+/* 遮罩样式 */
+.shade {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 90;
+}
+.ups-height {
+  height: 850rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+}
+

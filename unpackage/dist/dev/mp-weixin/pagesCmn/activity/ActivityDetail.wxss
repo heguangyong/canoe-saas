@@ -1,0 +1,16 @@
+
+.page{
+	z-index: 0;
+	height: 100vh;
+}
+video {
+	width: 750rpx;
+}
+image {
+	width: 750rpx;
+}
+swiper{
+	height: 660rpx;
+	width: 750rpx;
+}
+

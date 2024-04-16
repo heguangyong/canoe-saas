@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "ups-play": "/components/ups-play/index",
+    "ups-comment": "/components/ups-comment/index",
+    "ups-product": "/components/ups-product/index",
+    "ups-activity": "/components/ups-activity/index"
+  }
+}

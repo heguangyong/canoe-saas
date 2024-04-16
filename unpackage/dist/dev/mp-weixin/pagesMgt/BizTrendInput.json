@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "ups-uploads": "/components/ups-uploads/index",
+    "ups-movable": "/components/ups-movable/index",
+    "ups-product": "/components/ups-product/index",
+    "ups-activity": "/components/ups-activity/index"
+  }
+}

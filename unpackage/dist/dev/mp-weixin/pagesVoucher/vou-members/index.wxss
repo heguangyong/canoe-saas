@@ -1,0 +1,43 @@
+
+page {
+    padding-top: 100rpx;
+}
+.card-radius {
+    border-radius: 10rpx;
+}
+.card-popup {
+
+    display: flex;
+    flex-direction: column;
+
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+.card-popup-content {
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    max-height: 850rpx;
+}
+.card-popup-btn {
+    height: 90rpx;
+    line-height: 90rpx;
+    font-size: 14px;
+    border-top-color: #DADADA;
+    border-top-width: 1px;
+    border-top-style: solid;
+    text-align: center;
+    color: #666;
+}
+.popup-btn {
+    height: 90rpx;
+    line-height: 90rpx;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+}
+

@@ -1,0 +1,8 @@
+
+page {
+    padding-top: 100rpx;
+}
+.card-radius {
+    border-radius: 10rpx;
+}
+
